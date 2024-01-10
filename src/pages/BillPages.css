@@ -1,0 +1,98 @@
+
+#invoice-POS{
+    box-shadow: 0px 1px 2px 3px black    ;
+    padding: 4mm;
+    margin: 0 auto;
+    background-color: #fff;
+
+}
+::selection{
+    background: #f31544;
+    color: #fff;
+
+}
+::-moz-selection{
+    background: #f31544;
+    color: #fff;
+}
+h1{
+    font-size: 1.5em;
+    color:#222;
+}
+h2{
+    font-size: 0.9em;
+
+}
+h3{
+
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.2em;
+    
+}
+p{
+    font-size: 0.7em;
+    color: #666;
+    line-height: 1.2em;
+
+}
+#top,
+#mid,
+#bot{
+    border-bottom: 1px solid #eee;
+}
+#top{
+    min-height: 100px;
+}
+#bot{
+    min-height: 50px;
+}
+#top.log{
+    height: 60px;
+    width: 60px;
+    border-radius: 20%;
+    background: url() no-repeat;
+    background-size: 50px 50px;
+}
+.cleintlogo{
+    float: left;
+    height: 60px;
+    width: 60px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSLT4sUvuFoCl5-VpcdPNMYKFGhrE2h5sTO_JwVilMOg&s) ;
+    background-size: 60px 60px;
+    border-radius: 50px;
+}
+.info{
+    display: block;
+    margin-left: 0;
+}
+.title {
+    float: right;
+}
+.title p{
+    text-align: right;
+
+}
+table{
+    width: 100%;
+    border-collapse:collapse ;
+
+
+}
+.tabletitle{
+    font-size: 0.5em;
+    background: #eee;
+}
+.service{
+    border-bottom: 1px solid #eee;
+}
+.item{
+    width: 24mm;
+
+}
+.itemtext{
+    font-size: 0.5em;
+}
+#legalcopy{
+    margin-top: 5mm;
+}
